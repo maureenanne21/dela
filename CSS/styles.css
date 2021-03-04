@@ -1,0 +1,20 @@
+.social a{
+    font-size: 4.5em;
+    padding: 3em;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-twitter {
+    color: #00aced;
+}
+.fa-skype {
+    color: aced;
+}
+.fa-dribble {
+    color: rgb(177, 73, 154);
+}
+.fa-facebook:hover,
+.fa-dribble:hover,
+.fa-twitter:hover,
+.fa-skype:hover,
