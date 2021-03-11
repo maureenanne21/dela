@@ -4,14 +4,15 @@ function myFunction(){  //calling
     var mm=parseInt(document.getElementById("month").value)
     var dd=parseInt(document.getElementById("day").value)
     var male=document.getElementById("male");
-    var female=document.getElementById("female");     //stating arrays
+    var female=document.getElementById("female"); 
+    //stating arrays
      var femaleNames=
         ["Akosua",
         "Adowa",
         "Akua",
         "Yaa",
         "Afua",
-        "Afua",
+        "Afu",
         "Ama"]; 
     var maleNames=
        ["Kwasi",
@@ -34,12 +35,16 @@ function myFunction(){  //calling
     }
     else if(cc<19||cc>20){
         alert("invalid century please put put the correct century")
-    }    var day =new Date(cc + "-" + yy + "-" + mm + "-" + dd);    var dayWanted=day.getDay();    if(male.checked==true){
+    }    var day =new Date(cc + "-" + yy + "-" + mm + "-" + dd); 
+       var dayWanted=day.getDay();    
+       if(male.checked==true){
         document.getElementById("text").innerHTML=("You were born on " +weekDays[dayWanted]+ " and your akan name is " + maleNames[dayWanted])
     }
     else if(female.checked==true){
         document.getElementById("text").innerHTML=("You were born on " +weekDays[dayWanted]+ " and your akan name is " + femaleNames[dayWanted])
     }
+
+
 }
 // var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 // var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
@@ -55,7 +60,11 @@ function myFunction(){  //calling
 //     const day = parseInt(document.getElementById("day").value);
 //     const month = parseInt(document.getElementById("month").value);
 //     const year = parseInt(document.getElementById("year").value);
-//     const century = getCenturyFromYear(year)//     dayIndexValue = parseInt((((century/4) - 2 * century - 1) + ((5 * year /4 ) ) + ((26 * (month + 1) / 10)) + day ) % 7);//     dayOfBirth = (dayIndexValue - 1 );//     if(day<=0 ||day>31){
+//     const century = getCenturyFromYear(year)
+
+//     dayIndexValue = parseInt((((century/4) - 2 * century - 1) + ((5 * year /4 ) ) + ((26 * (month + 1) / 10)) + day ) % 7);
+//     dayOfBirth = (dayIndexValue - 1 );
+//     if(day<=0 ||day>31){
 //         alert("Invalid day")
 //     }else if(month<=0||month>12){
 //         alert("Invalid month")
