@@ -39,4 +39,15 @@ function myFunction(){  //calling
     }
     else if(female.checked==true){
         document.getElementById("text").innerHTML=("You were born on " +weekDays[dayWanted]+ " and your akan name is " + femaleNames[dayWanted])
-    }}
+    }
+}
+// var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+// var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+// var daysOfTheWeek =  ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];// function getCenturyFromYear(year){
+//     if(year % 100 === 0){
+//         return year / 100;
+//     }else{
+//         var remainder = year % 100;
+//          return((year + 100 ) - remainder) / 100;
+//     }
+// }
