@@ -51,3 +51,18 @@ function myFunction(){  //calling
 //          return((year + 100 ) - remainder) / 100;
 //     }
 // }
+// function getAkanNames(){
+//     const day = parseInt(document.getElementById("day").value);
+//     const month = parseInt(document.getElementById("month").value);
+//     const year = parseInt(document.getElementById("year").value);
+//     const century = getCenturyFromYear(year)//     dayIndexValue = parseInt((((century/4) - 2 * century - 1) + ((5 * year /4 ) ) + ((26 * (month + 1) / 10)) + day ) % 7);//     dayOfBirth = (dayIndexValue - 1 );//     if(day<=0 ||day>31){
+//         alert("Invalid day")
+//     }else if(month<=0||month>12){
+//         alert("Invalid month")
+//     }
+//     else if(maleNames.checked==true){
+//         alert("You were born on " +daysOfTheWeek[dayOfBirth]+ "and your Akan name is" +maleNames[dayOfBirth])
+//     }
+//     else if(femaleNames.checked==true){
+//         alert("You were born on " +daysOfTheWeek[dayOfBirth]+ "and your Akan name is" +femaleNames[dayOfBirth])
+//     }// }
