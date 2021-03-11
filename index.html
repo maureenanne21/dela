@@ -18,3 +18,16 @@
     <h1>Akan Names</h1>    <div class="cats">
       <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
     </div>    <h2>To know your Akan Name fill in the form Below:</h2>
+    <div id="form">
+        <form onsubmit="return false">
+            <label>Gender:</label>
+            <input type="radio" name="male" id="male">male
+            <input type="radio" name="female" id="female">female<br><br>          <label>Day:</label>
+            <input type="text" name="day" id="day" min="1" max="31"><br><br>          <label>Month:</label>
+            <input type="text" name="month" id="month" min="1" max="12"><br><br>          <label>Year:</label>
+            <input type="text" name="year" id="year"><br><br>          <label>Century:</label>
+            <select name="Century" id="century">
+                <option value="20th">20th</option>
+                <option value="19th">19th</option>
+            </select><br><br>          <button type="submit" name="submit" onclick="myFunction()" class="btn-outline-info btn-lg">Submit</button>
+            <button type="reset" name="submit" class="btn-outline-danger btn-lg">reset</button>
